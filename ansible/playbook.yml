@@ -1,0 +1,5 @@
+# ansible/playbook.yml
+- hosts: localhost
+  tasks:
+    - name: Deploy Kubernetes Resources
+      shell: kubectl apply -f k8s/
